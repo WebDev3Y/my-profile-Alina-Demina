@@ -1,0 +1,176 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  padding-top: 30px;
+  text-align: center; /* Center all text */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-oval {
+  border-radius: 50% / 30%; /* Oval shape */
+}
+
+.profile-pic {
+  width: 200px; /* Bigger size */
+  height: 250px;
+  display: block;
+  margin: 0 auto 20px;
+  border: 2px solid #3d5afe;
+}
+
+.img-small {
+  width: 150px; /* Smaller size */
+  height: 200px;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #3d5afe;
+}
+
+.profile-text {
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.section-title {
+  font-family: 'Roboto Slab', serif;
+  color: #3d5afe;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  text-align: center; /* Center align content */
+}
+
+.section-text {
+  font-size: 1.1em;
+  color: #555;
+  margin-top: 10px;
+  text-align: center; /* Center align text */
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.list-social {
+  margin-top: 20px;
+  text-align: center; /* Center align the Instagram icon */
+}
+
+.fa-instagram {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #3d5afe;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center; /* Center align paragraphs */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 960px) {
+  .container {
+    width: 90%; /* Adjust container width for smaller screens */
+    padding: 20px;
+  }
+  .profile-pic {
+    width: 150px; /* Adjust profile picture size */
+    height: 200px;
+  }
+  .img-small {
+    width: 120px; /* Adjust smaller image size */
+    height: 160px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%; /* Adjust container width for smaller screens */
+    padding: 15px;
+  }
+  .profile-pic {
+    width: 120px; /* Adjust profile picture size */
+    height: 160px;
+  }
+  .img-small {
+    width: 100px; /* Adjust smaller image size */
+    height: 140px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 70%; /* Adjust container width for smaller screens */
+    padding: 10px;
+  }
+  .profile-pic {
+    width: 100px; /* Adjust profile picture size */
+    height: 130px;
+  }
+  .img-small {
+    width: 80px; /* Adjust smaller image size */
+    height: 110px;
+  }
+}
